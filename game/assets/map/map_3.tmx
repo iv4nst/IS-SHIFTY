@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="26" height="26" tilewidth="64" tileheight="64" infinite="0" nextlayerid="6" nextobjectid="1416">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <layer id="1" name="bg_layer" width="26" height="26">
+  <data encoding="csv">
+18,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,4,3,18,
+18,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,18,
+18,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,18,
+18,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,18,
+18,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,20,
+18,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,18,
+18,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,18,
+21,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,18,
+18,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,18,
+21,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,20,
+18,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,18,
+18,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,18,
+18,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,18,
+18,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,18,
+21,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,18,
+18,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,20,
+18,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,18,
+21,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,18,
+18,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,18,
+18,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,20,
+18,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,18,
+18,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,18,
+21,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,18,
+18,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,20,
+21,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,18,
+18,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,6,5,18
+</data>
+ </layer>
+ <layer id="2" name="hazards_layer" width="26" height="26">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,
+0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,13,0,13,0,0,0,0,0,13,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,
+0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0
+</data>
+ </layer>
+ <layer id="3" name="tiles_layer" width="26" height="26">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,28,0,0,14,16,0,0,0,0,0,0,0,0,0,25,26,26,27,0,0,0,0,0,0,
+0,23,23,23,23,23,24,0,0,14,16,0,0,14,16,0,0,0,0,0,0,14,16,0,14,0,
+0,0,0,0,0,0,0,0,0,17,19,0,0,17,19,0,0,0,0,0,0,17,23,18,18,0,
+0,0,0,0,0,0,0,0,14,20,18,18,18,18,18,18,23,23,23,23,23,23,0,23,23,0,
+0,26,26,27,0,0,28,0,22,23,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,15,15,15,16,0,0,0,0,0,25,27,0,0,25,26,26,26,26,16,0,0,28,0,14,0,
+0,18,23,23,24,0,0,28,0,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,
+0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,25,15,15,15,15,15,20,0,0,0,25,26,15,16,0,0,0,0,0,0,0,0,
+0,0,0,0,0,23,23,23,23,23,21,16,0,0,0,0,0,23,26,16,0,0,0,0,0,0,
+0,26,27,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,19,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,23,26,26,26,27,0,0,0,0,21,15,15,15,15,0,
+0,0,0,0,14,16,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,15,15,15,26,19,0,0,0,14,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,23,23,23,0,23,23,23,23,23,21,15,15,15,15,15,15,15,16,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,23,23,24,0,0,14,16,0,25,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,23,23,23,0,
+0,0,0,0,0,0,0,0,25,26,26,27,0,0,0,0,0,25,26,27,0,0,0,0,0,0,
+0,26,26,27,0,0,0,28,0,0,0,0,0,25,26,27,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,15,15,15,0,
+0,26,26,26,27,0,25,26,27,0,28,0,0,0,0,0,0,0,0,28,0,22,23,23,23,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="obstacles_layer">
+  <object id="370" name="obstacle" type="ground" x="1600" y="1663" width="1" height="1536" rotation="90"/>
+  <object id="395" name="obstacle" type="ground" x="0" y="0" width="1664"/>
+  <object id="404" name="obstacle" type="ground" x="0" y="0" width="64" height="1664"/>
+  <object id="405" name="obstacle" type="ground" x="1600" y="0" width="64" height="1664"/>
+  <object id="1024" name="door" type="disabled" x="1520" y="1388" width="47" height="84"/>
+  <object id="1026" name="lever" type="red" x="656" y="1504" width="32" height="32"/>
+  <object id="1028" name="coin" x="672" y="1408" width="20" height="20"/>
+  <object id="1051" name="lever" type="yellow" x="1552" y="544" width="32" height="32"/>
+  <object id="1061" name="door_switch" x="152" y="160" width="16" height="32"/>
+  <object id="1078" name="door" type="level_up" x="136" y="1452" width="47" height="84"/>
+  <object id="1125" name="lever" type="blue" x="1552" y="224" width="32" height="32"/>
+  <object id="1132" name="lever" type="green" x="144" y="1376" width="32" height="32"/>
+  <object id="1133" name="key" x="992" y="912" width="22" height="22"/>
+  <object id="1134" name="obstacle" type="ground" x="48" y="1536" width="272" height="16"/>
+  <object id="1135" name="obstacle" type="ground" x="384" y="1536" width="192" height="16"/>
+  <object id="1136" name="obstacle" type="ground" x="448" y="1408" width="64" height="16"/>
+  <object id="1137" name="obstacle" type="ground" x="48" y="1408" width="208" height="16"/>
+  <object id="1138" name="obstacle" type="ground" x="48" y="1088" width="336" height="16"/>
+  <object id="1139" name="obstacle" type="ground" x="256" y="1024" width="128" height="80"/>
+  <object id="1140" name="obstacle" type="ground" x="512" y="1024" width="64" height="16"/>
+  <object id="1141" name="obstacle" type="ground" x="640" y="1152" width="576" height="16"/>
+  <object id="1142" name="obstacle" type="ground" x="752" y="960" width="272" height="16"/>
+  <object id="1151" name="obstacle" type="ground" x="688" y="832" width="80" height="16"/>
+  <object id="1152" name="obstacle" type="ground" x="752" y="832" width="16" height="144"/>
+  <object id="1153" name="obstacle" type="ground" x="256" y="768" width="448" height="16"/>
+  <object id="1154" name="obstacle" type="ground" x="688" y="768" width="16" height="80"/>
+  <object id="1155" name="obstacle" type="ground" x="48" y="896" width="144" height="16"/>
+  <object id="1156" name="obstacle" type="ground" x="48" y="576" width="272" height="16"/>
+  <object id="1157" name="obstacle" type="ground" x="48" y="448" width="208" height="16"/>
+  <object id="1158" name="obstacle" type="ground" x="384" y="448" width="64" height="16"/>
+  <object id="1159" name="obstacle" type="ground" x="448" y="640" width="64" height="16"/>
+  <object id="1160" name="obstacle" type="ground" x="640" y="576" width="128" height="16"/>
+  <object id="1161" name="obstacle" type="ground" x="896" y="576" width="384" height="16"/>
+  <object id="1162" name="obstacle" type="ground" x="1264" y="592" width="16" height="64"/>
+  <object id="1163" name="obstacle" type="ground" x="1264" y="640" width="288" height="16"/>
+  <object id="1164" name="obstacle" type="ground" x="1536" y="576" width="80" height="16"/>
+  <object id="1165" name="obstacle" type="ground" x="1536" y="592" width="16" height="64"/>
+  <object id="1166" name="obstacle" type="ground" x="1408" y="576" width="64" height="16"/>
+  <object id="1167" name="obstacle" type="ground" x="1536" y="256" width="80" height="16"/>
+  <object id="1168" name="obstacle" type="ground" x="1536" y="272" width="16" height="64"/>
+  <object id="1169" name="obstacle" type="ground" x="1456" y="320" width="96" height="16"/>
+  <object id="1170" name="obstacle" type="ground" x="1344" y="256" width="128" height="16"/>
+  <object id="1171" name="obstacle" type="ground" x="1456" y="272" width="16" height="64"/>
+  <object id="1172" name="obstacle" type="ground" x="1344" y="272" width="16" height="112"/>
+  <object id="1173" name="obstacle" type="ground" x="944" y="384" width="416"/>
+  <object id="1174" name="obstacle" type="ground" x="832" y="256" width="128" height="16"/>
+  <object id="1175" name="obstacle" type="ground" x="944" y="272" width="16" height="112"/>
+  <object id="1176" name="obstacle" type="ground" x="832" y="272" width="16" height="112"/>
+  <object id="1177" name="obstacle" type="ground" x="688" y="384" width="160"/>
+  <object id="1178" name="obstacle" type="ground" x="576" y="256" width="128" height="16"/>
+  <object id="1179" name="obstacle" type="ground" x="688" y="272" width="16" height="112"/>
+  <object id="1180" name="obstacle" type="ground" x="1024" y="192" width="256" height="16"/>
+  <object id="1181" name="obstacle" type="ground" x="128" y="192" width="64" height="16"/>
+  <object id="1182" name="obstacle" type="ground" x="320" y="192" width="128" height="16"/>
+  <object id="1183" name="obstacle" type="ground" x="320" y="208" width="16" height="48"/>
+  <object id="1184" name="obstacle" type="ground" x="48" y="256" width="288"/>
+  <object id="1185" name="obstacle" type="ground" x="1344" y="1472" width="272" height="16"/>
+  <object id="1186" name="obstacle" type="ground" x="1088" y="1344" width="192" height="16"/>
+  <object id="1187" name="obstacle" type="ground" x="1344" y="1216" width="128" height="16"/>
+  <object id="1188" name="obstacle" type="ground" x="1280" y="960" width="336" height="16"/>
+  <object id="1189" name="obstacle" type="ground" x="1136" y="832" width="144" height="16"/>
+  <object id="1190" name="obstacle" type="ground" x="1216" y="832" width="64" height="144"/>
+  <object id="1191" name="obstacle" type="ground" x="896" y="768" width="256" height="16"/>
+  <object id="1192" name="obstacle" type="ground" x="1136" y="768" width="16" height="80"/>
+  <object id="1193" name="obstacle" type="ground" x="512" y="384" width="80" height="16"/>
+  <object id="1194" name="obstacle" type="ground" x="576" y="256" width="16" height="144"/>
+  <object id="1195" name="obstacle" type="ground" x="832" y="1408" width="192" height="16"/>
+  <object id="1199" name="coin" x="1376" y="1184" width="20" height="20"/>
+  <object id="1202" name="coin" x="208" y="1232" width="20" height="20"/>
+  <object id="1205" name="coin" x="384" y="880" width="20" height="20"/>
+  <object id="1206" name="coin" x="576" y="880" width="20" height="20"/>
+  <object id="1217" name="coin" x="1456" y="864" width="20" height="20"/>
+  <object id="1218" name="coin" x="1408" y="864" width="20" height="20"/>
+  <object id="1219" name="coin" x="1360" y="864" width="20" height="20"/>
+  <object id="1221" name="coin" x="1344" y="480" width="20" height="20"/>
+  <object id="1222" name="coin" x="1504" y="480" width="20" height="20"/>
+  <object id="1223" name="coin" x="1040" y="112" width="20" height="20"/>
+  <object id="1225" name="coin" x="1088" y="112" width="20" height="20"/>
+  <object id="1226" name="coin" x="1136" y="112" width="20" height="20"/>
+  <object id="1227" name="coin" x="1184" y="112" width="20" height="20"/>
+  <object id="1230" name="coin" x="1232" y="112" width="20" height="20"/>
+  <object id="1231" name="coin" x="1488" y="160" width="20" height="20"/>
+  <object id="1232" name="coin" x="720" y="144" width="20" height="20"/>
+  <object id="1233" name="coin" x="800" y="144" width="20" height="20"/>
+  <object id="1235" name="coin" x="224" y="128" width="20" height="20"/>
+  <object id="1236" name="coin" x="256" y="128" width="20" height="20"/>
+  <object id="1237" name="coin" x="288" y="128" width="20" height="20"/>
+  <object id="1238" name="coin" x="528" y="144" width="20" height="20"/>
+  <object id="1239" name="coin" x="80" y="416" width="20" height="20"/>
+  <object id="1241" name="coin" x="208" y="336" width="20" height="20"/>
+  <object id="1243" name="coin" x="208" y="416" width="20" height="20"/>
+  <object id="1244" name="coin" x="416" y="416" width="20" height="20"/>
+  <object id="1246" name="health" x="80" y="544" width="22" height="22"/>
+  <object id="1247" name="health" x="96" y="1376" width="22" height="22"/>
+  <object id="1248" name="health" x="1232" y="1504" width="22" height="22"/>
+  <object id="1249" name="health" x="1552" y="928" width="22" height="22"/>
+  <object id="1250" name="health" x="1392" y="224" width="22" height="22"/>
+  <object id="1251" name="health" x="1248" y="544" width="22" height="22"/>
+  <object id="1252" name="health" x="80" y="1056" width="22" height="22"/>
+  <object id="1265" name="health" x="80" y="864" width="22" height="22"/>
+  <object id="1271" name="coin" x="1280" y="432" width="20" height="20"/>
+  <object id="1272" name="coin" x="1184" y="432" width="20" height="20"/>
+  <object id="1274" name="coin" x="1088" y="432" width="20" height="20"/>
+  <object id="1276" name="obstacle" type="zombie_limit" x="263" y="652" width="2" height="112"/>
+  <object id="1277" name="obstacle" type="zombie_limit" x="624" y="640" width="2" height="112"/>
+  <object id="1278" name="obstacle" type="zombie_limit" x="304" y="448" width="2" height="112"/>
+  <object id="1303" name="obstacle" type="zombie_limit" x="902" y="455" width="2" height="112"/>
+  <object id="1304" name="obstacle" type="zombie_limit" x="1269" y="459" width="2" height="112"/>
+  <object id="1310" name="obstacle" type="zombie_limit" x="1360" y="832" width="2" height="112"/>
+  <object id="1315" name="obstacle" type="zombie_limit" x="1210" y="1030" width="2" height="112"/>
+  <object id="1316" name="obstacle" type="zombie_limit" x="1272" y="77" width="2" height="112"/>
+  <object id="1317" name="obstacle" type="zombie_limit" x="1032" y="74" width="2" height="112"/>
+  <object id="1326" name="obstacle" type="ground" x="1456" y="1232" width="16" height="48"/>
+  <object id="1327" name="obstacle" type="ground" x="1456" y="1280" width="160"/>
+  <object id="1330" name="obstacle" type="ground" x="512" y="1344" width="256" height="16"/>
+  <object id="1332" name="obstacle" type="zombie_limit" x="80" y="976" width="2" height="112"/>
+  <object id="1333" name="obstacle" type="zombie_limit" x="1584" y="832" width="2" height="112"/>
+  <object id="1335" name="obstacle" type="ground" x="640" y="1536" width="64" height="16"/>
+  <object id="1337" name="obstacle" type="ground" x="576" y="1088" width="128" height="16"/>
+  <object id="1338" name="obstacle" type="ground" x="640" y="1104" width="64" height="64"/>
+  <object id="1339" name="obstacle" type="ground" x="576" y="1104" width="64" height="48"/>
+  <object id="1340" name="obstacle" type="ground" x="368" y="1104" width="16" height="48"/>
+  <object id="1341" name="obstacle" type="ground" x="368" y="1152" width="224"/>
+  <object id="1346" name="obstacle" type="zombie_limit" x="902" y="649" width="2" height="112"/>
+  <object id="1347" name="obstacle" type="zombie_limit" x="1145" y="647" width="2" height="112"/>
+  <object id="1348" name="coin" x="1360" y="832" width="20" height="20"/>
+  <object id="1349" name="coin" x="1408" y="832" width="20" height="20"/>
+  <object id="1350" name="coin" x="1456" y="832" width="20" height="20"/>
+  <object id="1351" name="coin" x="1504" y="832" width="20" height="20"/>
+  <object id="1352" name="coin" x="1504" y="864" width="20" height="20"/>
+  <object id="1353" name="coin" x="1552" y="832" width="20" height="20"/>
+  <object id="1354" name="coin" x="1552" y="864" width="20" height="20"/>
+  <object id="1363" name="obstacle" type="ground" x="640" y="704" width="64" height="80"/>
+  <object id="1364" name="obstacle" type="ground" x="1216" y="1536" width="64" height="16"/>
+  <object id="1379" name="player" x="1478" y="1422" width="35" height="50"/>
+  <object id="1401" name="obstacle" type="zombie_limit" x="717" y="1033" width="2" height="112"/>
+  <object id="1410" name="obstacle" type="ground" x="1536" y="1216" width="80" height="16"/>
+  <object id="1411" name="coin" x="1552" y="1184" width="20" height="20"/>
+  <object id="1414" name="obstacle" type="zombie_limit" x="240" y="960" width="2" height="112"/>
+  <object id="1415" name="obstacle" type="zombie_limit" x="80" y="448" width="2" height="112"/>
+ </objectgroup>
+ <objectgroup id="5" name="hazard_objects_layer">
+  <object id="1019" name="acid" x="64" y="1556" width="1536" height="108"/>
+  <object id="1038" name="obstacle" type="saw_limit_left" x="672" y="1232" width="1" height="20"/>
+  <object id="1039" name="saw" type="horizontal" x="848" y="1200" width="108" height="108">
+   <ellipse/>
+  </object>
+  <object id="1040" name="obstacle" type="saw_limit_right" x="1184" y="1232" width="1" height="20"/>
+  <object id="1046" name="zombie" x="444" y="716" width="54" height="52"/>
+  <object id="1048" name="obstacle" type="saw_limit_left" x="528" y="464" width="1" height="20"/>
+  <object id="1049" name="saw" type="horizontal" x="656" y="432" width="94" height="94">
+   <ellipse/>
+  </object>
+  <object id="1050" name="obstacle" type="saw_limit_right" x="1008" y="464" width="1" height="20"/>
+  <object id="1063" name="zombie" x="1436" y="908" width="54" height="52"/>
+  <object id="1064" name="zombie" x="124" y="1036" width="54" height="52"/>
+  <object id="1069" name="zombie" x="108" y="524" width="54" height="52"/>
+  <object id="1071" name="zombie" x="1036" y="524" width="54" height="52"/>
+  <object id="1075" name="zombie" x="1132" y="140" width="54" height="52"/>
+  <object id="1081" name="laser_machine" type="right_bullet" x="64" y="1248" width="64" height="64"/>
+  <object id="1082" name="laser_receiver" type="right" x="1347" y="1268" width="26" height="12" rotation="90"/>
+  <object id="1087" name="laser_machine" type="right" x="64" y="288" width="64" height="64"/>
+  <object id="1088" name="laser_beam" type="yellow" x="128" y="322" width="5" height="439" rotation="270"/>
+  <object id="1089" name="laser_receiver" type="right" x="579" y="307" width="26" height="12" rotation="90"/>
+  <object id="1111" name="laser_machine" type="left" x="1152" y="864" width="64" height="64"/>
+  <object id="1112" name="laser_beam" type="green" x="777" y="898" width="5" height="374.985" rotation="270"/>
+  <object id="1113" name="laser_receiver" type="left" x="777" y="884" width="26" height="12" rotation="90"/>
+  <object id="1119" name="laser_machine" type="left_bullet" x="896" y="1440" width="64" height="64"/>
+  <object id="1120" name="laser_receiver" type="left" x="76" y="1457" width="26" height="12" rotation="90"/>
+  <object id="1121" name="laser_machine" type="down blue" x="256" y="1120" width="64" height="64"/>
+  <object id="1122" name="laser_beam" type="blue" x="285" y="1184" width="5" height="340"/>
+  <object id="1123" name="laser_receiver" type="down" x="275" y="1524" width="26" height="12"/>
+  <object id="1129" name="laser_machine" type="down red" x="1408" y="352" width="64" height="64"/>
+  <object id="1130" name="laser_beam" type="red" x="1437" y="416" width="5" height="148"/>
+  <object id="1131" name="laser_receiver" type="down" x="1427" y="564" width="26" height="12"/>
+  <object id="1255" name="saw" x="1184" y="640" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="1259" name="obstacle" type="saw_limit_left" x="336" y="848" width="1" height="20"/>
+  <object id="1260" name="saw" type="horizontal" x="464" y="816" width="94" height="94">
+   <ellipse/>
+  </object>
+  <object id="1261" name="obstacle" type="saw_limit_right" x="624" y="848" width="1" height="20"/>
+  <object id="1266" name="obstacle" type="saw_limit_left" x="1040" y="400" width="1" height="20"/>
+  <object id="1267" name="saw" type="horizontal" x="1184" y="384" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="1268" name="obstacle" type="saw_limit_right" x="1344" y="400" width="1" height="20"/>
+  <object id="1288" name="obstacle" type="ground" x="1280" y="944" width="1" height="16"/>
+  <object id="1289" name="obstacle" type="ground" x="1343" y="944" width="1" height="16"/>
+  <object id="1290" name="spikes" x="1281" y="944" width="62" height="16"/>
+  <object id="1297" name="obstacle" type="ground" x="768" y="944" width="1" height="16"/>
+  <object id="1298" name="obstacle" type="ground" x="831" y="944" width="1" height="16"/>
+  <object id="1299" name="spikes" x="769" y="944" width="62" height="16"/>
+  <object id="1300" name="obstacle" type="ground" x="896" y="944" width="1" height="16"/>
+  <object id="1301" name="obstacle" type="ground" x="959" y="944" width="1" height="16"/>
+  <object id="1302" name="spikes" x="897" y="944" width="62" height="16"/>
+  <object id="1318" name="acid" x="1280" y="596" width="256" height="44"/>
+  <object id="1319" name="acid" x="960" y="276" width="384" height="108"/>
+  <object id="1320" name="acid" x="1472" y="276" width="64" height="44"/>
+  <object id="1321" name="acid" x="704" y="276" width="128" height="108"/>
+  <object id="1322" name="acid" x="64" y="212" width="256" height="44"/>
+  <object id="1324" name="acid" x="1472" y="1236" width="128" height="44"/>
+  <object id="1336" name="acid" x="384" y="1108" width="192" height="44"/>
+  <object id="1345" name="zombie" x="988" y="716" width="54" height="52"/>
+  <object id="1366" name="laser_machine" type="left_bullet" x="1216" y="960" width="64" height="64"/>
+  <object id="1367" name="laser_receiver" type="left" x="76" y="977" width="26" height="12" rotation="90"/>
+  <object id="1380" name="laser_machine" type="right_bullet" x="1120" y="208" width="64" height="64"/>
+  <object id="1381" name="laser_receiver" type="right" x="1600" y="228" width="26" height="12" rotation="90"/>
+  <object id="1383" name="laser_machine" type="left_bullet" x="1152" y="1360" width="64" height="64"/>
+  <object id="1384" name="laser_receiver" type="left" x="76" y="1377" width="26" height="12" rotation="90"/>
+  <object id="1385" name="laser_machine" type="right_bullet" x="64" y="704" width="64" height="64"/>
+  <object id="1386" name="laser_receiver" type="right" x="646" y="724" width="26" height="12" rotation="90"/>
+  <object id="1393" name="spikes" x="577" y="1072" width="62" height="16"/>
+  <object id="1394" name="obstacle" type="ground" x="576" y="1072" width="1" height="16"/>
+  <object id="1395" name="obstacle" type="ground" x="639" y="1072" width="1" height="16"/>
+  <object id="1404" name="zombie" x="876" y="1100" width="54" height="52"/>
+  <object id="1408" name="zombie" x="1020" y="1100" width="54" height="52"/>
+ </objectgroup>
+</map>
