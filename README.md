@@ -1,11 +1,9 @@
 # IS-SHIFTY
-2d platformer game made with Pygame
+A Python 2d platformer video game made with Pygame.
 
 *This game is made as part of the graduation work.*
 
 #### All resources used in the game are free.
-
-##### This version uses [Python 3.7.6](https://www.python.org/downloads/release/python-376/)
 
 Images: 
 * [Kenney](https://www.kenney.nl/)
@@ -18,22 +16,24 @@ Icons (menu images):
 Sounds:
 * [freesound](https://freesound.org/)
 
-### Built With
+### Built using
 * [Pygame](https://www.pygame.org/wiki/GettingStarted)
 * [Tiled](https://www.mapeditor.org/)
 
+## Gameplay demo
+
+https://user-images.githubusercontent.com/68946272/153291243-7d21c18a-c0cf-4a16-8dd6-207b7241e84d.mp4
+
 ## Getting Started
 
-To be able to play the game, you must install python and the packages from `requirements.txt` file.
+### Prerequisites
 
-#### Prerequisites
-[python](https://www.python.org/downloads/)
+##### [Python 3.7.6](https://www.python.org/downloads/release/python-376/)
 
-### Python packages installation
+#### Python packages installation
+
+After installing python, you must then run the following command in your shell to install required packages from the `requirements.txt` file. 
+
 ```sh
-   pip install "package_name"
-   ```
-#### If a specific version of the package is required:
-```sh
-   pip install "package_name==package_version"
+   pip install -r requirements.txt
    ```
