@@ -1,9 +1,9 @@
 # IS-SHIFTY
-A Python 2d platformer video game made with Pygame.
+A Python 2d platformer video game built with Pygame.
 
 *This game is made as part of the graduation work.*
 
-#### All resources used in the game are free.
+**All resources used in the game are free.**
 
 Images: 
 * [Kenney](https://www.kenney.nl/)
