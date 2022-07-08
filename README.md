@@ -6,7 +6,7 @@
 * The goal is to find and collect a key to unlock the door and proceed to the next level, while trying to set the high score
 * Upon starting the game, the player enters a menu in which he can change settings, check out high scores, view and change controls, etc.
 
-### Built using
+#### Built using
 * [Pygame](https://www.pygame.org/wiki/GettingStarted)
 * [Tiled](https://www.mapeditor.org/)
 
